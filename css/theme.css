@@ -1,0 +1,74 @@
+html.theme-color {
+    /* color */
+    --color-primary-45: hsl(209, 61%, 45%);
+    --color-primary-55: hsl(209, 61%, 55%);
+    --color-primary-70: hsl(209, 61%, 70%);
+
+    --color-gray-20: hsl(214, 20%, 20%);
+    --color-gray-45: hsl(214, 20%, 45%);
+    --color-gray-55: hsl(214, 20%, 55%);
+    --color-gray-80: hsl(208, 18%, 80%);
+    --color-gray-100: hsl(0, 0%, 100%);
+
+    --color-purple-55: hsl(244, 80%, 55%);
+    --color-purple-60: hsl(244, 80%, 60%);
+    --color-purple-65: hsl(244, 80%, 65%);
+    --color-purple-85: hsl(244, 80%, 85%);
+
+    --color-red-55: hsl(353, 50%, 55%);
+    --color-red-65: hsl(353, 50%, 65%);
+
+    /* button */
+    --button-form-main-normal: var(--color-purple-65);
+    --button-form-main-hover: var(--color-purple-60);
+    --button-form-main-press: var(--color-purple-55);
+    --button-form-main-disabled: var(--color-red-65);
+    --button-form-sub-normal: var(--color-gray-100);
+    --button-form-sub-hover: var(--color-gray-80);
+    --button-form-sub-press: var(--color-gray-55);
+    --button-form-sub-disabled: var(--color-red-65);
+
+    /* textbox */
+    --textbox-form-placeholder: var(--color-gray-80);
+    --textbox-form-normal: var(--color-gray-100);
+    --textbox-form-hover: var(--color-gray-55);
+    --textbox-form-focus: var(--color-gray-100);
+
+    /* passwordbox */
+    --passwordbox-form-placeholder: var(--color-gray-80);
+    --passwordbox-form-normal: var(--color-gray-100);
+    --passwordbox-form-hover: var(--color-gray-55);
+    --passwordbox-form-focus: var(--color-gray-100);
+
+    /* checkbox */
+    --checkbox-form-normal: var(--color-gray-80);
+    --checkbox-form-hover: var(--color-gray-55);
+    --checkbox-form-focus: var(--color-primary-55);
+
+    /* radio */
+    --checkbox-radio-normal: var(--color-gray-80);
+    --checkbox-radio-hover: var(--color-gray-55);
+    --checkbox-radio-focus: var(--color-primary-55);
+}
+
+
+
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('../font/NanumGothic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'NanumGothicBold';
+    src: url('../font/NanumGothicBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'NanumGothicExtraBold';
+    src: url('../font/NanumGothicExtraBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'NanumGothicLight';
+    src: url('../font/NanumGothicLight.otf') format('opentype');
+}
